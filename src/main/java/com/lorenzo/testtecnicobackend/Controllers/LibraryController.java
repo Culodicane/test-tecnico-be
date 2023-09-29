@@ -14,6 +14,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping(value = "api/library")
+@CrossOrigin(origins = {"http://localhost:4200","http://172.20.0.4:4200"})
 public class LibraryController {
 
     @Autowired
